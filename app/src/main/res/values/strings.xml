@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Aural</string>
+
+    <string name="folder_size_tagline">%d files</string>
+    <string name="template_folder_item_size">32</string>
+    <string name="template_folder_item_title">Folder Title</string>
+    <string name="template_folder_title">Folder Title</string>
+    <string name="template_folder_size">0 files</string>
+    <string name="template_player_playable_title">Playable Title</string>
+    <string name="template_player_playable_description">Playable Description</string>
+    <string name="template_player_progress">PP:PP</string>
+    <string name="template_player_duration">DD:DD</string>
+    <string name="fragment_vault_title">Vault</string>
+    <string name="template_playable_item_size">32</string>
+    <string name="template_playable_item_title">Playable Title</string>
+
+</resources>

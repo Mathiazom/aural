@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_player"
+    app:startDestination="@id/bottomPlayerFragment">
+
+    <fragment
+        android:id="@+id/bottomPlayerFragment"
+        android:name="com.mzom.aural.fragments.BottomPlayerFragment"
+        android:label="fragment_bottom_player"
+        tools:layout="@layout/fragment_bottom_player" />
+
+    <fragment
+        android:id="@+id/playerFragment"
+        android:name="com.mzom.aural.fragments.PlayerFragment"
+        android:label="fragment_player"
+        tools:layout="@layout/fragment_player" />
+
+    <action android:id="@+id/action_global_playerFragment" app:destination="@id/playerFragment" />
+
+</navigation>
